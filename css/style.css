@@ -1,0 +1,17 @@
+@import "reset.css";
+@import "header.css";
+@import "main.css";
+@import "footer.css";
+
+:root {
+  --border-bottom: rgb(240, 240, 240);
+  --sub-text: rgb(160, 160, 160);
+  --chat-alarm: rgb(254, 111, 15);
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo",
+    "Pretendard Variable", Pretendard, Roboto, "Noto Sans KR", "Segoe UI",
+    "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    sans-serif;
+}

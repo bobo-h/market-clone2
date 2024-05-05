@@ -1,0 +1,42 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  background-color: rgba(230, 230, 230, 0.5);
+  width: 100vw;
+}
+
+.footer-block {
+  padding: 5px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fb__front-icon {
+  width: 29px;
+}
+.fb__message {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-radius: 25px;
+  padding: 10px 0 7px 14px;
+  width: 70%;
+}
+.fb__message-text {
+  color: rgba(200, 200, 200, 0.5);
+  font-size: 21px;
+}
+
+.fb__message-icon {
+  width: 30px;
+  padding-right: 10px;
+}
+.fb__message-icon img {
+  width: 29px;
+}
+
+.fb__end-icon img {
+  width: 27px;
+}
